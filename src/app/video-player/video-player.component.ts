@@ -15,7 +15,7 @@ export class VideoPlayerComponent implements OnInit {
   }
 
   ngOnInit() {
-    const videoPath = 'http://localhost:8080/media/video/1.mp4';
+    const videoPath = 'http://localhost:8080/media/audio/1';
     this.videoUrl = this.getHlsUrl(videoPath);
   }
 
